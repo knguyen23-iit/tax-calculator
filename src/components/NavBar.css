@@ -1,0 +1,219 @@
+.navbar-container {
+  /* width: 1440px; */
+  height: 168px;
+  /* background-color: gray; */
+  display: flex;
+  align-items: center;
+}
+
+.navbar-line {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: 76px;
+  margin-right: 76px;
+}
+
+.main-logo-container {
+  width: 204px;
+  height: 72px;
+
+  /* margin-top: 48px; */
+  margin-left: 128px;
+  margin-right: 32px;
+  padding-right: 0px;
+
+  /* border: 1px solid black; */
+}
+
+.main-logo-container img {
+  width: 204px;
+  height: 72px;
+  margin-right: 0px;
+}
+
+.links-container {
+  width: 560px;
+  height: 44px;
+
+  /* margin-top: 48px; */
+  /* margin-left: 32px; */
+  margin-right: 90px;
+
+  /* border: 1px solid black; */
+}
+
+.links-container button {
+  cursor: pointer;
+}
+
+.links-container button:hover {
+  color: #9F781A;
+}
+
+.button-a-container {
+  width: 140px;
+  height: 44px;
+  display: inline-block;
+  margin-right: 16px;
+  position: relative;
+}
+
+.button-a {
+  width: 140px;
+  height: 44px;
+  color: black;
+  font-weight: 600;
+  font-size: 20px;
+  background-color: white;
+  border: none;
+}
+
+.icon-button-a {
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  top: -4px;
+  left: 1px;
+  opacity: 0;
+  transition: opacity 0.15s;
+  pointer-events: none;
+}
+
+.button-a-container:hover .icon-button-a {
+  opacity: 1;
+}
+
+.button-b-container {
+  width: 228px;
+  height: 44px;
+  display: inline-block;
+  margin-right: 16px;
+  position: relative;
+}
+
+.button-b {
+  width: 228px;
+  height: 44px;
+  color: black;
+  font-weight: 600;
+  font-size: 20px;
+  background-color: white;
+  border: none;
+  margin-right: 16px;
+}
+
+.icon-button-b {
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  top: -4px;
+  left: -8px;
+  opacity: 0;
+  transition: opacity 0.15s;
+  pointer-events: none;
+
+}
+
+.button-b-container:hover .icon-button-b {
+  opacity: 1;
+}
+
+.button-c-container {
+  width: 140px;
+  height: 44px;
+  display: inline-block;
+  margin-right: 16px;
+  position: relative;
+}
+
+.button-c {
+  width: 140px;
+  height: 44px;
+  color: black;
+  font-weight: 600;
+  font-size: 20px;
+  background-color: white;
+  border: none;
+}
+
+.icon-button-c {
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  top: -4px;
+  left: -8px;
+  opacity: 0;
+  transition: opacity 0.15s;
+  pointer-events: none;
+
+}
+
+.button-c-container:hover .icon-button-c {
+  opacity: 1;
+}
+
+.log-lang-container {
+  width: 164px;
+  height: 40px;
+  /* border: 1px solid black; */
+  display: flex;
+  flex-direction: row;
+}
+
+.login-button {
+  width: 116px;
+  height: 40px;
+  padding: 0px;
+  border-radius: 12px;
+  border: 1px solid #CBC7C7;
+  background-color: transparent;
+  color: black;
+  font-weight: 700;
+  font-size: 16px;
+  cursor: pointer;
+  transition: color 0.15s, background-color 0.15s;
+}
+
+.login-button:hover {
+  color: #9F781A;
+  background-color: #F9F3E4;
+}
+
+.login-button-container {
+  width: 116px;
+  margin-right: 20px;
+
+  position: relative;
+}
+
+.top-star {
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  top: -4px;
+  left: -8px;
+  opacity: 0;
+  transition: opacity 0.15s;
+  pointer-events: none;
+
+}
+
+.bottom-star {
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  bottom: -4px;
+  right: -8px;
+  opacity: 0;
+  transition: opacity 0.15s;
+  pointer-events: none;
+
+}
+
+.login-button-container:hover .top-star {
+  opacity: 1;
+}
+
+.login-button-container:hover .bottom-star {
+  opacity: 1;
+}
